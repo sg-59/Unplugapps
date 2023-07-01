@@ -1,0 +1,76 @@
+.Main{ 
+width:100% ;
+height:auto ;
+display:flex ;
+}
+
+.Left{
+display:flex ;
+flex-direction:column ;
+width:90% ;
+}
+
+.Header{
+height:200px ;
+border: 2px black solid ;
+display:flex ;
+flex-direction:column ;
+align-items:center ;
+justify-content:space-around ;
+}
+
+.Details{
+min-height:380px ;
+height:auto ;
+border: 2px black solid ;
+}
+
+.RightBar{
+width:10% ;
+height:350px ;
+background-color:#f2db72 ;
+margin-top:200px ;
+display:flex ;
+flex-direction:column ;
+align-items:center ;
+justify-content:space-around ;
+}
+.Title{
+background-color:yellow ;
+text-align:center ;
+}
+.Htop{
+width:100% ;
+display:flex ;
+align-items:center ;
+justify-content:space-around ;
+}
+
+.Hbottom{
+width:100% ;
+display:flex ;
+align-items:center ;
+justify-content:space-evenly ;
+}
+
+.Tr{
+border:1px solid black ;
+}
+.Td{
+border:1px solid black ;
+text-align:center ;
+}
+.Th{
+border:1px solid black ;
+}
+
+
+/*Print*/
+
+
+.PrintData{
+    min-height:720px ;
+    height:auto ;
+    border: 2px black solid ;  
+}
+
